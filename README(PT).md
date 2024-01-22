@@ -13,3 +13,12 @@ Quando o tratamento acaba, o PyTesseract tenta reconhecer padrões/similaridades
       Sendo sincero, quando digo condição mal-feita é por causa do meu pouco tempo para fazer o projeto de TCC (que funcionou), tive somente 3 meses e não consegui estudar Python realmente como eu deveria, mesmo ficando quase 8 horas no dia por dia codando.
       
 Por fim, quando o filtro de similaridade de caracteres termina seu serviço, o código vai analisar se a placa tratada está no banco de dados, caso esteja ele vai mandar um sinal para o ESP pelo MQTT Broker, que então fara sua devida ativação.
+
+Quais módulos/bibliotecas de Python são utilizadas nesse trabalho?
+
+  paho.mqtt (pip install paho-mqtt)
+  openCV2 (pip install opencv-python-headless)
+  pandas (pip install pandas)
+  tesseract/PyTessract (instalar primeiro o tesseractOCR e depois abrir ambiente virtual para rodar o pip install pytesseract)
+  
+Os outros módulos ou são previamente instalados pelo próprio Python ou são módulos dos quais não foram retirados previamente do trabalho.
