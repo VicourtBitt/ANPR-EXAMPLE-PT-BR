@@ -1,4 +1,7 @@
 # ANPR-EXAMPLE
+
+(Non-Updated, working to solve some errors and to be runnable in other computers without the real need of a DVR)
+
 An ANPR system made by a Brazilian Python Apprentice, isn't polished (but I made some functional versions of it).
 
 How it works:
